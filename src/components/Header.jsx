@@ -1,12 +1,12 @@
-import fondoHeader from '../assets/images/headerConLetras.png'
+import fondoHeader from '../assets/images/headerConLetras.png';
+import Nav from './Nav';
 
 const Header = () => {
   return (
-    
-      <div className="">
-        <img src={fondoHeader} alt='fondoHeader'/>
-      </div>
-    
+    <header>
+    <Nav />
+    <img className="container mx-auto" src={fondoHeader} alt="fondoHeader" />
+    </header>
   );
 };
 
