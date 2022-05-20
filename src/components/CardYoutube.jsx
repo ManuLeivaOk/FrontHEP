@@ -3,10 +3,10 @@ import Sarmiento from "../assets/images/Sarmiento.jpeg";
 const CardYoutube = () => {
   return (
     <div>
-      <div className="bg-white shadow-lg rounded-xl h-36 m-5 flex justify-around items-center imagenEpisodio">
+      <div className="bg-white shadow-lg rounded-xl h-36 m-5 flex justify-around items-center imagenEpisodio p-2">
         <img src={Sarmiento} alt="episodio" className="p-2 rounded-3xl h-32" />
         <div className='w-1 h-24 bg-gray-400'></div>
-        <p className="text-xl font-bold uppercase text-gray-500">
+        <p className="text-lg font-bold uppercase text-gray-500">
           Episodio 54: Sarmiento y las orgias
         </p>
         <button className="svgEpisodio">
@@ -26,10 +26,10 @@ const CardYoutube = () => {
           </svg>
         </button>
       </div>
-      <div className="bg-white shadow-lg rounded-xl h-36 m-5 flex justify-around items-center imagenEpisodio opacity-70">
+      <div className="bg-white shadow-lg rounded-xl h-36 m-5 flex justify-around items-center imagenEpisodio opacity-70 p-2">
         <img src={Sarmiento} alt="episodio" className="p-2 rounded-3xl h-32" />
         <div className='w-1 h-24 bg-gray-400'></div>
-        <p className="text-xl font-bold uppercase text-gray-500">
+        <p className="text-lg font-bold uppercase text-gray-500">
           Episodio 54: Sarmiento y las orgias
         </p>
         <button className="svgEpisodio">
@@ -49,10 +49,10 @@ const CardYoutube = () => {
           </svg>
         </button>
       </div>
-      <div className="bg-white shadow-lg rounded-xl h-36 m-5 flex justify-around items-center imagenEpisodio opacity-50">
+      <div className="bg-white shadow-lg rounded-xl h-36 m-5 flex justify-around items-center imagenEpisodio opacity-50 p-2">
         <img src={Sarmiento} alt="episodio" className="p-2 rounded-3xl h-32" />
         <div className='w-1 h-24 bg-gray-400'></div>
-        <p className="text-xl font-bold uppercase text-gray-500">
+        <p className="text-lg font-bold uppercase text-gray-500">
           Episodio 54: Sarmiento y las orgias
         </p>
         <a className="svgEpisodio">
@@ -72,7 +72,7 @@ const CardYoutube = () => {
           </svg>
         </a>
       </div>
-      <div className='flex justify-end mt-2'><a href='https://www.youtube.com/c/HistoriaenPodcast' target='_blank' className="botonIrAlBlog p-3 rounded-lg uppercase my-4 mr-10 hover:opacity-80 transition-all">Ver más</a></div>
+      <div className='flex justify-end mt-2'><a href='https://www.youtube.com/c/HistoriaenPodcast' target='_blank' className="botonIrAlBlog p-3 rounded-lg uppercase my-2 mr-10 hover:opacity-80 transition-all">Ver más</a></div>
     </div>
   );
 };

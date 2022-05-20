@@ -10,8 +10,8 @@ const Nav = () => {
     setIsOpen(!isOpen);
   };
   return (
-    <div>
-      <nav className="justify-between items-center h-20 bg-white text-black relative shadow-sm flex">
+    <>
+      <nav className="justify-between items-center h-20 bg-white text-black sticky top-0 shadow-sm flex">
       <Link to="/" className="pl-8 flex ">
         <img src={LogoHEP} alt="logoHEP" className="w-16 mr-3" />
         <h1 className="font-bold text-xl mt-4 text-gray-600">
@@ -49,7 +49,7 @@ const Nav = () => {
       </div>
     </nav>
     {isOpen && <BurgerMenu/>}
-    </div>
+    </>
   );
 };
 
