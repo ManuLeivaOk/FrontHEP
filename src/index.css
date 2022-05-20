@@ -1,0 +1,110 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+    --color-1: #131212;
+    --color-2: #EBCC6A;
+    --color-3: #e1ad00;
+}
+
+body{
+    font-family: 'Roboto', sans-serif;
+}
+
+/* Nav */
+
+.menuHamburguesa{
+    background: var(--color-3);
+    color: var(--color-1);
+}
+
+/* Header */
+
+
+.tituloHeader{
+    color: var(--color-3);
+}
+
+/* SECTION */
+
+.botonIrALaTienda{
+    background: var(--color-3);
+    color: var(--color-1);
+    text-align: center;
+}
+
+.botonIrAlBlog{
+    background: var(--color-3);
+    color: var(--color-1);
+    text-align: center;
+}
+
+h4{
+    color: var(--color-3);
+}
+
+.fechaNoticias{
+    color: var(--color-3);
+}
+
+.tituloTienda {
+    color: var(--color-3);
+}
+
+
+.svgEpisodio{
+    color: var(--color-1);
+}
+
+.svgEpisodioBoton{
+    background: var(--color-3);
+    border-radius: 50%;
+}
+
+
+
+.contenidoArticulos{
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 5;
+    overflow: hidden;
+}
+
+.botonDeArticulo{
+    background-color: var(--color-3);
+    color: var(--color-1);
+}
+
+/* TIENDA */
+
+.precioLibro{
+    color: var(--color-3);
+}
+
+.botonItemTienda{
+    background: var(--color-3);
+    color: var(--color-1);
+}
+
+/* BLOG */
+
+.contenidoCardsBlog{
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 5;
+    overflow: hidden;
+}
+
+
+/* FOOTER */
+
+.botonFormulario {
+    background-color: var(--color-3);
+    color: var(--color-1);
+}
+
+
+  
+  
+  
